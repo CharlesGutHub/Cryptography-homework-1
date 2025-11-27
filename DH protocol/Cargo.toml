@@ -1,0 +1,12 @@
+[package]
+name = "signed_dh"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+p256 = { version = "0.11", features = ["ecdsa", "ecdh"] }
+rand_core = "0.6"
+hkdf = "0.12"
+aes-gcm = "0.10"
+hex = "0.4"
+sha2 = "0.10"
